@@ -1,0 +1,57 @@
+.dout{
+   width:530px;
+   height: 350px;
+    background-color:whitesmoke;
+    display: inline-block;
+    /* align-content:center; */
+    align-items: center;
+    
+    
+}
+
+
+
+.din {
+    width: 150px;
+    height:290px;
+     background-color:white;
+     display: inline-block;
+     margin-left: 20px;
+
+}
+
+.catimg{
+    width:100%;
+    height:150px;  
+}
+.catsmall
+{
+ width:25px;
+ height:25px;
+ border-radius:50px;
+  /* object-fit: contain; */
+  /* object-position: bottom; */
+
+}
+.p
+{
+  
+   margin-left: 25px;
+   margin-bottom: 10px;
+}
+.sp
+{
+    font-size:smaller;
+    vertical-align: 5px;
+}
+.b
+{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height:30px;
+    background-color:rgb(5, 60, 241);
+    color:white;
+}
+
+
+
