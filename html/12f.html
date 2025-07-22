@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head><title>120f flexbox ex</title>
+    <style>
+.outdiv
+{
+    display:flex;
+    /* align-items:center; */
+    justify-content: center;
+    flex-direction: column;
+    width:650px;
+    height: 65px;
+    background-color:beige;
+}
+.indiv
+{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    /* justify-content: center; */
+    background-color: blueviolet;
+    height:45px;
+    width:625px;
+    margin-left: 12px;
+
+    
+}
+.search-bar
+  { width:375px;
+    border-radius: 25px;
+    height: 25px;
+    margin-top: 9px;
+   border-width: 0px;
+  }
+  .par
+  {
+    margin-left:10px;
+    color:white;
+  }
+  .but
+  {
+    width:90px;
+    height:35px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    color:white;
+    margin-top: 6px;
+    margin-right:7px;
+    border-color: white;
+  }
+    </style>
+
+   </head>
+   
+   
+   <body>
+    <div class="outdiv">
+        <div class="indiv">
+            <p class="par">Home</p>
+            <input  class=search-bar type="text" placeholder="search">
+             <button class="but">Download</button>
+        </div>
+    </div>
+
+    </body>
+</html>

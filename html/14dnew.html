@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head><title>ex14a</title>
+        <style>
+            .div1,.div2,.but
+            {
+                margin-left: 10px;
+                margin-top: 30px;
+            }
+        </style>
+    <body style="height:3000px;
+                  width:1000px;">  
+           <div style="display:flex;
+                       flex-direction:row;
+                       " >     
+                <div style="
+                    display: flex;
+                    flex-direction: column;
+                    flex:1;  
+                    height:3000px;
+                    background-color: rgba(0,0,0,0.8);">
+                    left sidebar 
+                <div style="
+                  display: grid;
+                  grid-template-rows: 20px 20px;
+                  line-height: 10px;
+                   position:fixed;           
+                    background-color:white;
+                    left:450px;
+                    right:570px;
+                    bottom:345px;
+                    top:285px;
+                    border-radius: 5px;
+                    row-gap: 10px;;
+                 ">
+                <div  class="div1" style="font-weight: bolder;
+                            font-size:large;
+                            display:inline-block">Modal Title</div> 
+                <div class="div2" style="font-weight: bolde;
+                            font-size:medium;
+                            ">This is a modal</div> 
+                
+                <button class="but" style="background-color:white;
+                               height:25px;
+                               width:48px;
+                               border-radius: 5px;
+                               " >Close</button>    
+                
+                
+                </div>
+                 </div>
+               <div style="background-color: green;
+                    width:100px;
+                    color:white;                                
+                    ">right sidebar</div>
+                  
+           </div>     
+        </body>
+</html>
