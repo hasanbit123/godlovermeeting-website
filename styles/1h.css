@@ -1,0 +1,35 @@
+
+.container-button
+  {
+    background-color: beige;
+    width: 70%;
+    margin:90px;
+    padding:20px ;
+
+  }
+
+  .apply
+  {
+    width: 270px;
+    height: 60px;
+    color:aliceblue;
+    background-color: blue;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+
+  }
+
+  .save
+  { 
+    width:100px;
+   height:60px;
+   color:mediumblue;
+   border-radius: 30px;
+   background-color: aliceblue;
+   margin-left:50px;
+   font:bolder; 
+   font-size: larger;
+   font-weight: bold;
+
+}

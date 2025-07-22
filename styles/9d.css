@@ -1,0 +1,37 @@
+.dout{
+    width:360px;
+    height:140px;
+    display:inline-block;    
+    background-color:rgb(221, 230, 221);
+    
+    display: inline-block;
+    background-color: aquamarine;
+    
+}
+
+.din
+{
+   width:340px;
+    height:120px;
+    
+    margin-top:5px;    
+     background-color: rgba(1, 10, 10, 0.945);
+    
+    
+    display: inline-block;
+    margin-left: 5px;  
+}
+ .p1{
+    color:white;
+    font-size: larger;
+    margin-left: 10px;
+}
+.p2{
+    width:250;
+    display:inline-block;
+    color:white;
+    font-size:small;
+    padding-bottom:40px;
+     margin-left:10px;
+
+}

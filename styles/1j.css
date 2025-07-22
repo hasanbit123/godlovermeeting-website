@@ -1,0 +1,30 @@
+.container-button
+{background-color:rgb(20, 90, 220);
+    width:37%;
+    margin :70px;
+    padding:30px;}
+.add {
+    width:100px;
+    height:30px;
+    background-color: gold;
+    border-radius: 25PX;
+    margin-left:10px ;
+    transition:opacity 1s;
+}
+.add:hover {
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
+}
+.buy-now:active{
+     background-color:rgb(35, 32, 218); 
+    opacity:0.3;
+}
+.buy-now
+{
+    width:100px;
+    height:30px;
+    background-color: goldenrod;
+    border-radius: 25px;
+    margin-left: 10px;
+    transition:opacity 1s;
+}  
